@@ -92,7 +92,7 @@
 ---
 
 ## Security
-- **Admin Password**: `ed@admin`
+- **Admin Password**: `moodle`
 - **Secrets Management**: Ensure all API keys and credentials are kept in `.env` or Streamlit Secrets.
 
 ---

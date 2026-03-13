@@ -603,7 +603,7 @@ elif page == "Admin":
         password = st.text_input("Enter Admin Password", type="password", placeholder="••••••••")
         
         if st.button("Unlock Panel", type="primary", use_container_width=True):
-            if password == "ed@admin":
+            if password == "moodle":
                 st.session_state["admin_authenticated"] = True
                 st.success("Access Granted")
                 st.rerun()
