@@ -1,5 +1,5 @@
 """
-ShuttleForce — Internal Company Badminton App
+shuttl-ED — Internal Company Badminton App
 Main Streamlit Application (v2 — Mobile-First + UUPM Optimized)
 """
 
@@ -18,7 +18,7 @@ from referee import solve_scheduling_conflict, get_demo_reschedule
 # ──────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="ShuttleForce",
+    page_title="shuttl-ED",
     page_icon="🏸",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -165,7 +165,7 @@ def render_table(headers: list[str], rows_html: str):
 with st.sidebar:
     st.markdown("""
     <div class="sidebar-brand">
-        <div class="sidebar-brand-name">🏸 ShuttleForce</div>
+        <div class="sidebar-brand-name">🏸 shuttl-ED</div>
         <div class="sidebar-brand-sub">Internal Badminton League</div>
     </div>
     """, unsafe_allow_html=True)

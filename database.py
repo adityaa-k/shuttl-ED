@@ -1,5 +1,5 @@
 """
-ShuttleForce — Database Layer
+shuttl-ED — Database Layer
 Provides SheetDB (Google Sheets) and DemoDB (in-memory fallback).
 """
 

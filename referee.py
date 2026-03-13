@@ -1,5 +1,5 @@
 """
-ShuttleForce — AI Referee (Gemini 1.5 Flash)
+shuttl-ED — AI Referee (Gemini 1.5 Flash)
 Handles smart match rescheduling via natural-language constraints.
 """
 
@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-SYSTEM_PROMPT = """You are the ShuttleForce AI Referee — an intelligent match scheduler for an internal company badminton tournament.
+SYSTEM_PROMPT = """You are the shuttl-ED AI Referee — an intelligent match scheduler for an internal company badminton tournament.
 
 You will be given:
 1. A JSON list of upcoming matches, each with: Match_ID, Team_A, Team_B, Status.

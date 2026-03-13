@@ -1,5 +1,5 @@
 """
-ShuttleForce — Custom CSS Branding (v2 — Mobile-First + UUPM Optimized)
+shuttl-ED — Custom CSS Branding (v2 — Mobile-First + UUPM Optimized)
 
 Design System:
   Style:       Glassmorphism Dark
