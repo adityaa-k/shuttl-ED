@@ -1,34 +1,34 @@
-# 🏸 shuttl-ED
+# shuttl-ED
 
 **shuttl-ED** is a premium, internal-only company badminton league management application. Built with **Streamlit**, **Google Sheets**, and **Gemini 1.5 Flash**, it provides a seamless and visually stunning experience for tracking matches, leaderboards, and AI-driven rescheduling.
 
 ---
 
-## 🌟 Key Features
+## Key Features
 
-### 🎮 Match Center
+### Match Center
 - **Setup Matches**: Support for both Singles (1v1) and Doubles (2v2).
 - **Player Randomization**: Quickly pick fair matches from the registered player pool.
 - **Dual Scoring Modes**:
   - **Live Mode**: A real-time +/- counter for keeping score during the match.
   - **Quick Entry**: Fast-track score entry for completed matches.
 
-### 🏆 Dynamic Leaderboards
+### Dynamic Leaderboards
 - **Today's MVP**: Highlights the top-performing player of the current day.
 - **Hall of Fame**: An all-time leaderboard aggregating wins, points, and matches played from the entire history.
-- **Podium View**: Visual 🥇, 🥈, 🥉 awards for the top 3 all-time players.
+- **Podium View**: Digital awards for the top 3 all-time players.
 
-### 🤖 AI Referee (Gemini 1.5 Flash)
+### AI Referee (Gemini 1.5 Flash)
 - **Natural Language Rescheduling**: Admins can provide constraints (e.g., *"Vikram has a meeting in 10 mins"* or *"Prioritize matches with the top players"*) and the AI will automatically reorganize the queue.
 - **Intelligent Feedback**: The AI provides notes on why specific matches were moved.
 
-### ⚙️ Secure Admin Panel
+### Secure Admin Panel
 - **Password Protected**: The panel is locked behind a password (`ed@admin`) to ensure data integrity.
 - **Player Management**: Add new players and departments.
 - **Full Match Log**: View the complete history of every match played.
 - **System Settings**: Monitor connection status to Google Sheets and Gemini AI.
 
-### 📱 Premium UX (UI UX Pro Max)
+### Premium UX (UI UX Pro Max)
 - **Glassmorphism Design**: A modern, sleek dark theme with frost-glass effects.
 - **Mobile-First Responsiveness**: Optimized for every device from iPhone SE to 4K monitors.
 - **Micro-Animations**: Smooth transitions and pulsing indicators for live matches.
@@ -36,7 +36,7 @@
 
 ---
 
-## 🛠️ Technical Stack
+## Technical Stack
 
 - **Frontend**: [Streamlit](https://streamlit.io/)
 - **Database**: [Google Sheets](https://www.google.com/sheets/about/) (via `gspread`)
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### 1. Prerequisites
 - Python 3.10 or higher.
@@ -81,7 +81,7 @@
 
 ---
 
-## ☁️ Deployment (Streamlit Community Cloud)
+## Deployment (Streamlit Community Cloud)
 
 1. **Push to GitHub**: Ensure your `.env` and `credentials.json` are **NOT** checked into Git.
 2. **Deploy on Streamlit**:
@@ -91,15 +91,15 @@
 
 ---
 
-## 🔒 Security
+## Security
 - **Admin Password**: `ed@admin`
 - **Secrets Management**: Ensure all API keys and credentials are kept in `.env` or Streamlit Secrets.
 
 ---
 
-## 🧑‍💻 Contributing
+## Contributing
 This is an internal company tool. For feature requests or bug reports, please contact the internal IT/Badminton committee.
 
 ---
 
-*Made with ❤️ for the company badminton community.*
+*Made for the company badminton community.*

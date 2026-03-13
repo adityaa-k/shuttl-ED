@@ -608,7 +608,7 @@ footer { visibility: hidden; }
     background: linear-gradient(135deg, transparent 40%, rgba(255, 215, 0, 0.04) 100%);
     pointer-events: none;
 }
-.mvp-crown { font-size: clamp(2rem, 6vw, 2.8rem); }
+.mvp-crown { display: none; }
 .mvp-name {
     font-family: var(--font-heading);
     font-size: clamp(1.2rem, 4vw, 1.7rem);
@@ -641,7 +641,7 @@ footer { visibility: hidden; }
     transform: translateY(-3px);
     box-shadow: var(--glow-strong);
 }
-.podium-medal { font-size: clamp(1.6rem, 5vw, 2.2rem); }
+.podium-medal { display: none; }
 .podium-name {
     font-family: var(--font-heading);
     font-size: clamp(0.9rem, 2.5vw, 1.2rem);
@@ -731,9 +731,7 @@ footer { visibility: hidden; }
     color: var(--muted);
 }
 .empty-state-icon {
-    font-size: clamp(2rem, 6vw, 3rem);
-    margin-bottom: var(--spacing-sm);
-    opacity: 0.5;
+    display: none;
 }
 .empty-state-text {
     font-size: clamp(0.85rem, 2vw, 1rem);
